@@ -1,5 +1,4 @@
 const mongoose = require('mongoose');
-// const onlineDb = require('../../config/keys');
 mongoose.connect('mongodb://localhost/ramschedule');
 
 
