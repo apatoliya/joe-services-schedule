@@ -1,9 +1,9 @@
 const options = {
-  client: 'mysql',
+  client: 'pg',
   connection: {
     host: '127.0.0.1',
-    user: 'root',
-    password: '',
+    user: 'me',
+    password: 'test123',
     database: 'schedule',
   },
 };
@@ -407,7 +407,7 @@ const ramSchedule = [{
   pass: 312,
   rush: 130,
   rec: 246,
-}, 
+},
 ];
 
 const knex = require('knex')(options);
@@ -417,3 +417,4 @@ knex('stats').insert(ramSchedule).then(() => console.log('data inserted'))
   .finally(() => {
     knex.destroy();
   });
+
