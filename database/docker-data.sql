@@ -24,7 +24,6 @@ CREATE TABLE stats (
   rec INT
 )
 
-USE schedule;
 
 INSERT INTO stats (id, vs, city, team, teamlogo, week, date, opponent, opponentlogo, result, winloss, wl, link, playerpass, playerrush, playerrec, pass, rush, rec)
     VALUES
