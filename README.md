@@ -29,6 +29,14 @@ An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
 - Node 6.13.0
 - etc
 
+## database setup 
+  to add schedume
+  mysql -u root < /database/Model/ScheduleDB.sql
+  to add example data
+  node /database/seedscripts/seedschedule.js
+  
+  
+
 ## Development
 
 ### Installing Dependencies
