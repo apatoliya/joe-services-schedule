@@ -39,6 +39,14 @@ From within the root directory:
 npm install -g webpack
 npm install
 ```
+
+## database setup
+to add schedume 
+      mysql -u root < /database/Model/ScheduleDB.sql 
+to add example data 
+      node /database/seedscripts/seedschedule.js
+
+
 ## Setup
 
 ```sh
